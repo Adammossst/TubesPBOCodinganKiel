@@ -2,7 +2,7 @@ import java.sql.*;
 
 public class DatabaseConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/tubespbo";
-    private static final String USER = "buatpbw";
+    private static final String USER = "buatpbo";
     private static final String PASSWORD = "";
 
     public static Connection getConnection() throws SQLException {
